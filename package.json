@@ -1,0 +1,18 @@
+{
+  "name": "@myapp/redis-module",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/bullmq": "^12.0.0",
+    "@nestjs/common": "^12.1.0",
+    "@nestjs/config": "^12.0.1",
+    "@types/node": "^26.6.3",
+    "bullmq": "^6.3.9",
+    "dotenv": "^18.0.4",
+    "ioredis": "^6.0.0"
+  }
+}
